@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C36AC7CB2E7AF39C00479557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36AC7B52E7AF39B00479557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36AC7BC2E7AF39B00479557;
+			remoteInfo = ElectroVector;
+		};
+		C36AC7D52E7AF39C00479557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36AC7B52E7AF39B00479557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36AC7BC2E7AF39B00479557;
+			remoteInfo = ElectroVector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C36AC7BD2E7AF39B00479557 /* ElectroVector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectroVector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36AC7CA2E7AF39C00479557 /* ElectroVectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectroVectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36AC7D42E7AF39C00479557 /* ElectroVectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectroVectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C36AC7BF2E7AF39B00479557 /* ElectroVector */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ElectroVector;
+			sourceTree = "<group>";
+		};
+		C36AC7CD2E7AF39C00479557 /* ElectroVectorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ElectroVectorTests;
+			sourceTree = "<group>";
+		};
+		C36AC7D72E7AF39C00479557 /* ElectroVectorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ElectroVectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36AC7BA2E7AF39B00479557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36AC7C72E7AF39C00479557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36AC7D12E7AF39C00479557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C36AC7B42E7AF39B00479557 = {
+			isa = PBXGroup;
+			children = (
+				C36AC7BF2E7AF39B00479557 /* ElectroVector */,
+				C36AC7CD2E7AF39C00479557 /* ElectroVectorTests */,
+				C36AC7D72E7AF39C00479557 /* ElectroVectorUITests */,
+				C36AC7BE2E7AF39B00479557 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36AC7BE2E7AF39B00479557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36AC7BD2E7AF39B00479557 /* ElectroVector.app */,
+				C36AC7CA2E7AF39C00479557 /* ElectroVectorTests.xctest */,
+				C36AC7D42E7AF39C00479557 /* ElectroVectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36AC7BC2E7AF39B00479557 /* ElectroVector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36AC7DE2E7AF39C00479557 /* Build configuration list for PBXNativeTarget "ElectroVector" */;
+			buildPhases = (
+				C36AC7B92E7AF39B00479557 /* Sources */,
+				C36AC7BA2E7AF39B00479557 /* Frameworks */,
+				C36AC7BB2E7AF39B00479557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C36AC7BF2E7AF39B00479557 /* ElectroVector */,
+			);
+			name = ElectroVector;
+			packageProductDependencies = (
+			);
+			productName = ElectroVector;
+			productReference = C36AC7BD2E7AF39B00479557 /* ElectroVector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36AC7C92E7AF39C00479557 /* ElectroVectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36AC7E12E7AF39C00479557 /* Build configuration list for PBXNativeTarget "ElectroVectorTests" */;
+			buildPhases = (
+				C36AC7C62E7AF39C00479557 /* Sources */,
+				C36AC7C72E7AF39C00479557 /* Frameworks */,
+				C36AC7C82E7AF39C00479557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36AC7CC2E7AF39C00479557 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C36AC7CD2E7AF39C00479557 /* ElectroVectorTests */,
+			);
+			name = ElectroVectorTests;
+			packageProductDependencies = (
+			);
+			productName = ElectroVectorTests;
+			productReference = C36AC7CA2E7AF39C00479557 /* ElectroVectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C36AC7D32E7AF39C00479557 /* ElectroVectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36AC7E42E7AF39C00479557 /* Build configuration list for PBXNativeTarget "ElectroVectorUITests" */;
+			buildPhases = (
+				C36AC7D02E7AF39C00479557 /* Sources */,
+				C36AC7D12E7AF39C00479557 /* Frameworks */,
+				C36AC7D22E7AF39C00479557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36AC7D62E7AF39C00479557 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C36AC7D72E7AF39C00479557 /* ElectroVectorUITests */,
+			);
+			name = ElectroVectorUITests;
+			packageProductDependencies = (
+			);
+			productName = ElectroVectorUITests;
+			productReference = C36AC7D42E7AF39C00479557 /* ElectroVectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36AC7B52E7AF39B00479557 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					C36AC7BC2E7AF39B00479557 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					C36AC7C92E7AF39C00479557 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C36AC7BC2E7AF39B00479557;
+					};
+					C36AC7D32E7AF39C00479557 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C36AC7BC2E7AF39B00479557;
+					};
+				};
+			};
+			buildConfigurationList = C36AC7B82E7AF39B00479557 /* Build configuration list for PBXProject "ElectroVector" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36AC7B42E7AF39B00479557;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C36AC7BE2E7AF39B00479557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36AC7BC2E7AF39B00479557 /* ElectroVector */,
+				C36AC7C92E7AF39C00479557 /* ElectroVectorTests */,
+				C36AC7D32E7AF39C00479557 /* ElectroVectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36AC7BB2E7AF39B00479557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36AC7C82E7AF39C00479557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36AC7D22E7AF39C00479557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36AC7B92E7AF39B00479557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36AC7C62E7AF39C00479557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36AC7D02E7AF39C00479557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36AC7CC2E7AF39C00479557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36AC7BC2E7AF39B00479557 /* ElectroVector */;
+			targetProxy = C36AC7CB2E7AF39C00479557 /* PBXContainerItemProxy */;
+		};
+		C36AC7D62E7AF39C00479557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36AC7BC2E7AF39B00479557 /* ElectroVector */;
+			targetProxy = C36AC7D52E7AF39C00479557 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C36AC7DC2E7AF39C00479557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8HWWBXB4A2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C36AC7DD2E7AF39C00479557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8HWWBXB4A2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36AC7DF2E7AF39C00479557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HWWBXB4A2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alinawaf.ElectroVector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C36AC7E02E7AF39C00479557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HWWBXB4A2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alinawaf.ElectroVector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C36AC7E22E7AF39C00479557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HWWBXB4A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alinawaf.ElectroVectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectroVector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElectroVector";
+			};
+			name = Debug;
+		};
+		C36AC7E32E7AF39C00479557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HWWBXB4A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alinawaf.ElectroVectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectroVector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElectroVector";
+			};
+			name = Release;
+		};
+		C36AC7E52E7AF39C00479557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HWWBXB4A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alinawaf.ElectroVectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElectroVector;
+			};
+			name = Debug;
+		};
+		C36AC7E62E7AF39C00479557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8HWWBXB4A2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alinawaf.ElectroVectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElectroVector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36AC7B82E7AF39B00479557 /* Build configuration list for PBXProject "ElectroVector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36AC7DC2E7AF39C00479557 /* Debug */,
+				C36AC7DD2E7AF39C00479557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36AC7DE2E7AF39C00479557 /* Build configuration list for PBXNativeTarget "ElectroVector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36AC7DF2E7AF39C00479557 /* Debug */,
+				C36AC7E02E7AF39C00479557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36AC7E12E7AF39C00479557 /* Build configuration list for PBXNativeTarget "ElectroVectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36AC7E22E7AF39C00479557 /* Debug */,
+				C36AC7E32E7AF39C00479557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36AC7E42E7AF39C00479557 /* Build configuration list for PBXNativeTarget "ElectroVectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36AC7E52E7AF39C00479557 /* Debug */,
+				C36AC7E62E7AF39C00479557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36AC7B52E7AF39B00479557 /* Project object */;
+}
